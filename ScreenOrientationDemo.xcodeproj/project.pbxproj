@@ -70,8 +70,8 @@
 		69331DD21E2899B20083FAE7 /* ScreenOrientationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				69331DF21E289A480083FAE7 /* UINavigationController+Orientation */,
-				69331DF31E289A480083FAE7 /* UITabBarController+Orientation */,
+				69331DF21E289A480083FAE7 /* UITabBarController+Orientation */,
+				69331DF31E289A480083FAE7 /* UINavigationController+Orientation */,
 				69331DD61E2899B20083FAE7 /* AppDelegate.h */,
 				69331DD71E2899B20083FAE7 /* AppDelegate.m */,
 				69331DD91E2899B20083FAE7 /* FirstViewController.h */,
@@ -97,21 +97,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		69331DF21E289A480083FAE7 /* UINavigationController+Orientation */ = {
+		69331DF21E289A480083FAE7 /* UITabBarController+Orientation */ = {
 			isa = PBXGroup;
 			children = (
 				69331DF41E289A9C0083FAE7 /* UITabBarController+Orientation.h */,
 				69331DF51E289A9C0083FAE7 /* UITabBarController+Orientation.m */,
 			);
+			name = "UITabBarController+Orientation";
 			path = "UINavigationController+Orientation";
 			sourceTree = "<group>";
 		};
-		69331DF31E289A480083FAE7 /* UITabBarController+Orientation */ = {
+		69331DF31E289A480083FAE7 /* UINavigationController+Orientation */ = {
 			isa = PBXGroup;
 			children = (
 				69331DFD1E289ED30083FAE7 /* UINavigationController+Orientation.h */,
 				69331DFE1E289ED30083FAE7 /* UINavigationController+Orientation.m */,
 			);
+			name = "UINavigationController+Orientation";
 			path = "UITabBarController+Orientation";
 			sourceTree = "<group>";
 		};
@@ -347,6 +349,7 @@
 				69331DEC1E2899B20083FAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
